@@ -52,7 +52,7 @@ function generateFnFor(rpcMethodName, methodObject) {
       return promiseToCallback(promise)(callback);
     }
 
-    // only return promise if no callback provided
+    //Only return promise if no callback is provided
     return promise;
 
     async function performCall() {
