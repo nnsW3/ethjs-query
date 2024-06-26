@@ -35,7 +35,7 @@ npm run lint
 
 ## Travis-ci and Coveralls Testing
 
-Note, this will generate a `coveralls` report locally.
+Note, that this will generate a `coveralls` report locally.
 
 ```
 npm run test-travis
