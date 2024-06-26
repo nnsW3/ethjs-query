@@ -149,7 +149,7 @@ Error handling is done through function callbacks or promised catches.
 
 ## Browser Builds
 
-`ethjs` provides production distributions for all of its modules that are ready for use in the browser right away. Simply include either `dist/ethjs-query.js` or `dist/ethjs-query.min.js` directly into an HTML file to start using this module. Note, an `Eth` object is made available globally.
+`ethjs` provides production distributions for all of its modules that are ready for use in the browser right away. Simply include either `dist/ethjs-query.js` or `dist/ethjs-query.min.js` directly into an HTML file to start using this module. Note, that an `Eth` object is made available globally.
 
 ```html
 <script type="text/javascript" src="ethjs-query.min.js"></script>
